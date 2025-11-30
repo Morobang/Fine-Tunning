@@ -1,3 +1,46 @@
+# Fine-Tunning: AI-Powered Review App
+
+This project is an AI-powered review application. It allows clients to submit reviews, receive AI-assisted feedback, and have their own custom AI models fine-tuned to their specific needs.
+
+## Features
+
+- Review submission and management (Next.js frontend)
+- AI-assisted review generation
+- Client-specific fine-tuning workflow (Python backend)
+- API endpoints for data upload and fine-tuning
+
+## Backend (Python/FastAPI)
+
+Located in `backend/`, the API provides endpoints for:
+
+- Uploading client data for fine-tuning
+- Triggering fine-tuning jobs
+- Managing client-specific models
+
+Run backend server:
+
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+## Frontend (Next.js)
+
+Run frontend server:
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to use the app.
+
+## Fine-Tuning Workflow
+
+Clients can upload their data via the backend API. Fine-tuning jobs can be triggered for each client, resulting in custom AI models tailored to their needs. See `backend/finetune/finetune_client.py` for the fine-tuning script placeholder.
+
+---
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

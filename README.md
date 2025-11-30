@@ -1,29 +1,36 @@
-# Fine-Tunning
-
-This repository is for experimenting with fine-tuning models for all users in your system.
-
-## Purpose
-The goal is to determine if you can perform fine-tuning for every user in your system, regardless of their data or requirements.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
-1. Clone the repository:
-   ```
-   git clone https://github.com/Morobang/Fine-Tunning.git
-   ```
-2. Set up your environment and dependencies as needed.
-3. Add your user data and fine-tuning scripts.
 
-## How to Use
-- Place user data in the appropriate directory.
-- Run your fine-tuning scripts for each user.
-- Document results and findings in this repository.
+First, run the development server:
 
-## Next Steps
-- Add sample data and scripts for fine-tuning.
-- Document the process and results for each user.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## License
-Specify your license here if needed.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
-Feel free to update this README as your project evolves.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
